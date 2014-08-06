@@ -1,0 +1,13 @@
+Vagrant.require_plugin('vagrant-itamae')
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "ubuntu/trusty64"
+
+  config.vm.provision :itamae do |config|
+    config.recipes = ['./recipe.rb']
+    config.json = './node.json'
+  end
+end
