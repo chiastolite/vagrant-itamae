@@ -1,6 +1,6 @@
 # vagrant-itamae
 
-vagrant-itamae is a vagrant plugin for ![itamae](https://github.com/ryotarai/itamae)
+vagrant-itamae is a vagrant plugin for [Itamae](https://github.com/ryotarai/itamae)
 
 ## Example
 
