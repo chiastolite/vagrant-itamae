@@ -5,7 +5,7 @@ group :development do
 end
 
 group :plugins do
-    gem "vagrant-itamae", path: "."
+  gem "vagrant-itamae", path: "."
 end
 
 # Specify your gem's dependencies in vagrant-itamae.gemspec

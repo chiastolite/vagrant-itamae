@@ -6,6 +6,7 @@ module VagrantPlugins
       def provision
         options = {
           node_json: config.json,
+          sudo: config.sudo,
           host: @machine.ssh_info[:host],
           port: @machine.ssh_info[:port],
           user: @machine.ssh_info[:username],

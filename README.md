@@ -9,6 +9,9 @@ Vagrant.configure('2') do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.provision :itamae do |config|
+    # execute command with sudo privilege(true or false)
+    config.sudo = true
+
     # recipes(String or Array)
     config.recipes = ['./recipe.rb']
 
