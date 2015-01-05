@@ -7,6 +7,7 @@ module VagrantPlugins
         options = {
           node_json: config.json,
           node_yaml: config.yaml,
+          sudo: config.sudo,
           host: @machine.ssh_info[:host],
           port: @machine.ssh_info[:port],
           user: @machine.ssh_info[:username],

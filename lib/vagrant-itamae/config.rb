@@ -3,12 +3,14 @@ module VagrantPlugins
     class Config < Vagrant.plugin('2', :config)
       attr_accessor :json
       attr_accessor :yaml
+      attr_accessor :sudo
       attr_accessor :recipes
 
       def initialize
         @recipes = UNSET_VALUE
         @json    = UNSET_VALUE
         @yaml    = UNSET_VALUE
+        @sudo    = UNSET_VALUE
       end
 
       def finalize!
@@ -17,6 +19,8 @@ module VagrantPlugins
 
         @json = nil if @json == UNSET_VALUE
         @yaml = nil if @yaml == UNSET_VALUE
+
+        @sudo = false if @sudo == UNSET_VALUE
       end
     end
   end
