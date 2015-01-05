@@ -9,5 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :itamae do |config|
     config.recipes = ['./recipe.rb']
     config.json = './node.json'
+
+    config.sudo = true
   end
 end
