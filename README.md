@@ -26,6 +26,11 @@ end
 vagrant plugin install vagrant-itamae
 ```
 
+## about Itamae plugin
+
+vagrant-itamae does not support [itamae plugins](https://rubygems.org/search?utf8=%E2%9C%93&query=itamae-plugin).
+If you want to use itamae plugins with vagrant-itamae then try to use [vagrant-multiplug](https://github.com/r7kamura/vagrant-multiplug)
+
 ## Contributing
 
 1. Fork it ( https://github.com/chiastolite/vagrant-itamae/fork )
