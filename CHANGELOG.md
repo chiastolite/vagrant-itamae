@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.2.1](https://github.com/chiastolite/vagrant-itamae/tree/v0.2.1) (2015-11-23)
+[Full Changelog](https://github.com/chiastolite/vagrant-itamae/compare/v0.2.0...v0.2.1)
+
+**Merged pull requests:**
+
+- Support log level [\#9](https://github.com/chiastolite/vagrant-itamae/pull/9) ([chiastolite](https://github.com/chiastolite))
+
 ## [v0.2.0](https://github.com/chiastolite/vagrant-itamae/tree/v0.2.0) (2015-10-06)
 [Full Changelog](https://github.com/chiastolite/vagrant-itamae/compare/v0.1.0...v0.2.0)
 
