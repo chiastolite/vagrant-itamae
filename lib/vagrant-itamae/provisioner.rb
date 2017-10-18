@@ -16,7 +16,7 @@ module VagrantPlugins
         }
 
         ::Itamae.logger.level = config.log_level
-        ::Itamae::Runner.run(config.recipes, :ssh, options)
+        ::Itamae::Runner.run(config.recipes, config.backend.to_sym, options)
       end
     end
   end

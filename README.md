@@ -16,6 +16,9 @@ Vagrant.configure('2') do |config|
     config.recipes = ['./recipe.rb']
 
     config.json = './node.json'
+
+    # switch backend (if you use 'local'. default "ssh")
+    config.backend = 'local'
   end
 end
 ```
