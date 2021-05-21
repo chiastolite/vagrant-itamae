@@ -12,7 +12,8 @@ module VagrantPlugins
           host: @machine.ssh_info[:host],
           port: @machine.ssh_info[:port],
           user: @machine.ssh_info[:username],
-          key:  @machine.ssh_info[:private_key_path][0]
+          key:  @machine.ssh_info[:private_key_path][0],
+          tmp_dir: "/tmp/itamae_tmp"
         }
 
         ::Itamae.logger.level = config.log_level
